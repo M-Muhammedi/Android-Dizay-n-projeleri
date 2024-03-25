@@ -1,0 +1,19 @@
+
+Android Studio'da Linear Layout XML dosyasında kullanılan özellikler şunlardır:
+
+android:orientation: LinearLayout'in düzenini belirler. Değerlerinden biri "horizontal" (yatay) veya "vertical" (dikey) olabilir.
+android:layout_width: View'in genişliğini belirler. Değerler arasında "wrap_content", "match_parent", veya belirli bir boyut (dp veya px cinsinden) olabilir.
+android:layout_height: View'in yüksekliğini belirler. Değerler arasında "wrap_content", "match_parent", veya belirli bir boyut (dp veya px cinsinden) olabilir.
+android:layout_weight: View'in ağırlığını belirler. Diğer view'lerle birlikte kullanıldığında, ekran boyunca kullanılabilir alanı paylaşmak için kullanılır.
+android:gravity: View içeriğinin düzen içindeki hizalamasını belirler. Örneğin, "center", "start", "end" gibi değerler alabilir.
+android:layout_gravity: View'in kendisinin düzen içindeki hizalamasını belirler. Örneğin, "center", "start", "end" gibi değerler alabilir.
+android:layout_margin: View'in dört kenarına uygulanacak dış boşluk miktarını belirler.
+android:layout_marginTop,
+android:layout_marginBottom,
+android:layout_marginLeft,
+android:layout_marginRight: View'in üst, alt, sol ve sağ kenarlarına uygulanacak dış boşluk miktarını belirler.
+android:layout_gravity: View'in kendi içeriğinin düzen içindeki hizalamasını belirler.
+android:layout_weight: View'in ağırlığını belirler. Diğer view'lerle birlikte kullanıldığında, ekran boyunca kullanılabilir alanı paylaşmak için kullanılır.
+android:baselineAligned: True değeri, düzen içindeki tüm çocuk view'lerin metin taban çizgisine hizalanmasını sağlar.
+android:baselineAlignedChildIndex: Düzen içindeki çocuk view'lerden hangisinin metin taban çizgisine hizalanacağını belirler.
+android:weightSum: LinearLayout içindeki tüm ağırlıkların toplamını belirler.
