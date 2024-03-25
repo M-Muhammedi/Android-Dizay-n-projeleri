@@ -1,0 +1,20 @@
+
+Android Studio'da Frame Layout XML dosyasında kullanılan özellikler şunlardır:
+
+android:layout_width: View'in genişliğini belirler. Değerler arasında "wrap_content", "match_parent", veya belirli bir boyut (dp veya px cinsinden) olabilir.
+android:layout_height: View'in yüksekliğini belirler. Değerler arasında "wrap_content", "match_parent", veya belirli bir boyut (dp veya px cinsinden) olabilir.
+android:layout_gravity: View'in kendisinin düzen içindeki hizalamasını belirler.
+android:foreground: View'in üzerine örtülecek ön plan görüntüsünü belirler.
+android:foregroundGravity: Ön plan görüntüsünün hizalamasını belirler.
+android:padding: View'in içeriğinin etrafına eklenen iç boşluk miktarını belirler.
+android:paddingTop, 
+android:paddingBottom,
+android:paddingLeft, 
+android:paddingRight: View'in içeriğinin üst, alt, sol ve sağ kenarlarına uygulanacak iç boşluk miktarını belirler.
+android:foregroundGravity: Ön plan görüntüsünün hizalamasını belirler.
+android:foregroundTint: Ön plan görüntüsünün renk filtresini belirler.
+android:foregroundTintMode: Ön plan görüntüsünün renk filtresi karışım modunu belirler.
+android:measureAllChildren: Tüm çocuk view'lerin ölçülmesini zorlar.
+android:clipChildren: View'in sınırlarının dışına taşan çocukların kesilip kesilmeyeceğini belirler.
+android:clipToPadding: Padding alanının dışında kalan çocukların kesilip kesilmeyeceğini belirler.
+android:layoutDirection: View'in düzenlenme yönünü belirler (LTR: soldan sağa, RTL: sağdan sola).
