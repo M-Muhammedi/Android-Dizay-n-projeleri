@@ -1,0 +1,19 @@
+
+Android Studio'da Table Layout XML dosyasında kullanılan özellikler şunlardır:
+
+android:layout_width: View'in genişliğini belirler. Değerler arasında "wrap_content", "match_parent", veya belirli bir boyut (dp veya px cinsinden) olabilir.
+android:layout_height: View'in yüksekliğini belirler. Değerler arasında "wrap_content", "match_parent", veya belirli bir boyut (dp veya px cinsinden) olabilir.
+android:stretchColumns: Tablonun sütunlarını germe davranışını belirler.
+android:shrinkColumns: Tablonun sütunlarını daraltma davranışını belirler.
+android:collapseColumns: Tablodaki sütunların otomatik olarak daraltılmasını belirler.
+android:layout_column: View'in tabloda hangi sütunda bulunacağını belirler.
+android:layout_span: View'in kaç sütun boyunca genişleyeceğini belirler.
+android:layout_weight: View'in ağırlığını belirler. Diğer view'lerle birlikte kullanıldığında, tablo hücreleri arasındaki kullanılabilir alanı paylaşmak için kullanılır.
+android:collapseColumns: Tablodaki sütunların otomatik olarak daraltılmasını belirler.
+android:stretchColumns: Tablonun sütunlarını germe davranışını belirler.
+android:shrinkColumns: Tablonun sütunlarını daraltma davranışını belirler.
+android:layout_span: View'in kaç sütun boyunca genişleyeceğini belirler.
+android:layout_column: View'in tabloda hangi sütunda bulunacağını belirler.
+android:layout_weight: View'in ağırlığını belirler. Diğer view'lerle birlikte kullanıldığında, tablo hücreleri arasındaki kullanılabilir alanı paylaşmak için kullanılır.
+android:shrinkColumns: Tablonun sütunlarını daraltma davranışını belirler.
+android:padding: Tablo hücrelerinin içeriğinin etrafına uygulanacak iç boşluk miktarını belirler.
