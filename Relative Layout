@@ -1,0 +1,30 @@
+Android Studio'da Relative Layout XML dosyasında kullanılan özellikler şunlardır:
+android:layout_alignParentTop: View'in üst kenarını üst ebeveynin üst kenarına hizalar.
+android:layout_alignParentBottom: View'in alt kenarını üst ebeveynin alt kenarına hizalar.
+android:layout_alignParentLeft: View'in sol kenarını üst ebeveynin sol kenarına hizalar.
+android:layout_alignParentRight: View'in sağ kenarını üst ebeveynin sağ kenarına hizalar.
+android:layout_centerInParent: View'i ebeveynin ortasına hizalar.
+android:layout_centerHorizontal: View'i yatay olarak ebeveynin ortasına hizalar.
+android:layout_centerVertical: View'i dikey olarak ebeveynin ortasına hizalar.
+android:layout_above: View'i belirtilen başka bir view'in üstüne hizalar.
+android:layout_below: View'i belirtilen başka bir view'in altına hizalar.
+android:layout_toLeftOf: View'i belirtilen başka bir view'in soluna hizalar.
+android:layout_toRightOf: View'i belirtilen başka bir view'in sağına hizalar.
+android:layout_alignTop: View'in üst kenarını belirtilen başka bir view'in üst kenarına hizalar.
+android:layout_alignBottom: View'in alt kenarını belirtilen başka bir view'in alt kenarına hizalar.
+android:layout_alignLeft: View'in sol kenarını belirtilen başka bir view'in sol kenarına hizalar.
+android:layout_alignRight: View'in sağ kenarını belirtilen başka bir view'in sağ kenarına hizalar.
+android:layout_alignBaseline: View'in metin taban çizgisini belirtilen başka bir view'in metin taban çizgisine hizalar.
+android:layout_alignStart: View'in başlangıç kenarını (sol kenar, eğer yerelleştirme sağa doğru ise) belirtilen başka bir view'in başlangıç kenarına hizalar.
+android:layout_alignEnd: View'in bitiş kenarını (sağ kenar, eğer yerelleştirme sola doğru ise) belirtilen başka bir view'in bitiş kenarına hizalar.
+android:layout_alignParentStart: View'in başlangıç kenarını (sol kenar, eğer yerelleştirme sağa doğru ise) üst ebeveynin başlangıç kenarına hizalar.
+android:layout_alignParentEnd: View'in bitiş kenarını (sağ kenar, eğer yerelleştirme sola doğru ise) üst ebeveynin bitiş kenarına hizalar.
+android:layout_alignWithParentIfMissing: Eğer belirtilen view yoksa, view'i üst ebeveynin kenarına hizalar.
+android:layout_toStartOf: View'i belirtilen başka bir view'in başlangıç kenarına (sol kenar, eğer yerelleştirme sağa doğru ise) hizalar.
+android:layout_toEndOf: View'i belirtilen başka bir view'in bitiş kenarına (sağ kenar, eğer yerelleştirme sola doğru ise) hizalar.
+android:layout_alignWithParentIfMissing: Belirtilen view yoksa, view'i ebeveynin kenarına hizalar.
+android:layout_alignStart: View'i belirtilen başka bir view'in başlangıç kenarına (sol kenar, eğer yerelleştirme sağa doğru ise) hizalar.
+android:layout_alignEnd: View'i belirtilen başka bir view'in bitiş kenarına (sağ kenar, eğer yerelleştirme sola doğru ise) hizalar.
+android:layout_alignBaseline: View'in metin taban çizgisini belirtilen başka bir view'in metin taban çizgisine hizalar.
+android:layout_alignBottom: View'in alt kenarını belirtilen başka bir view'in alt kenarına hizalar.
+Not: Bu özellikler, view'lerin yatay ve dikey olarak birbirlerine göre hizalanmasını ve konumlandırılmasını sağlar.
